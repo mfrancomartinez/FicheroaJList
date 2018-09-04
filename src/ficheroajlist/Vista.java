@@ -40,6 +40,9 @@ public class Vista extends VistaAbstracta{
 
     @Override
     public void visualizar() {
+        
+       // modelo.leer();
+        
         for (int i = 0; i<modelo.size(); i++){
             listmodel.add(i, modelo.get(i));
         }
