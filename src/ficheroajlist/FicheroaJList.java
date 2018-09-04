@@ -21,8 +21,8 @@ public class FicheroaJList {
         modelo.vista = vista;
         vista.modelo = modelo;
         
-        modelo.leer();
-        vista.visualizar();
+      modelo.leer();
+       // vista.visualizar();
         
         
     }
