@@ -39,6 +39,8 @@ public class Modelo extends ModeloAbstracto{
             br.close();
         } catch (IOException ioe) {
         }
+        
+       vista.visualizar();
         return data;
     }
 
